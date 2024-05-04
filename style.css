@@ -1,0 +1,30 @@
+
+
+html{
+    background-color: rgb(245, 235, 221);
+}
+
+p{
+    font-size: 20px;
+}
+
+li{
+    font-size: 14px;
+}
+
+#lowerComment{
+font-size: 14px;
+}
+
+h1{
+    padding-left: 13px;
+    font-weight: 700;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.images{
+    margin-bottom: 3px;
+    margin-top: 20px;
+
+}
