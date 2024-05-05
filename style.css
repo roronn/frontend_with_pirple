@@ -7,6 +7,15 @@ html{
 p{
     font-size: 20px;
 }
+.italic{
+    font-style: italic;
+}
+.red{
+    color: red;
+}
+.last{
+    text-decoration: underline;
+}
 
 li{
     font-size: 14px;
@@ -26,5 +35,51 @@ h1{
 .images{
     margin-bottom: 3px;
     margin-top: 20px;
+    list-style-type: none;
 
+
+}
+
+.ingredients > li {
+    list-style-type: none;
+}
+
+.oil::before{
+    content: "🧴  ";
+}
+
+.chicken::before {
+    content: "🍗  ";
+}
+
+.garlic::before {
+    content: "🧄  ";
+}
+
+.soysauce::before {
+    content: "🍾  ";
+}
+
+.vinegar::before {
+    content: "🍾  ";
+}
+
+.gpowder::before {
+    content: "🧄  ";
+}
+
+.pepper::before {
+    content: "🥫  ";
+}
+
+.leaf::before {
+    content: "🍂  ";
+}
+
+.preperation li{
+    list-style-type: upper-roman;
+}
+
+footer > ul > li{
+    list-style-type: none;
 }
